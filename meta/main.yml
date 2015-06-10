@@ -1,0 +1,21 @@
+---
+dependencies:
+  - role: getvalkyrie.skynet
+    src: git+http://github.com/GetValkyrie/ansible-role-skynet.git
+    aegir_makefile: "{{ valhalla_cp_makefile }}"
+    aegir_frontend_url: "{{ valhalla_cp_frontend_url }}"
+    aegir_provision_version: "dev/2494121"
+
+galaxy_info:
+  author: Christopher Gervais (ergonlogic)
+  description: Valhalla: Control Panel - The production target for sites developed on Valkyrie.
+  company: "GetValyrie"
+  license: GPLv3
+  min_ansible_version: 1.8
+  platforms:
+  - name: Ubuntu
+    versions:
+    - trusty
+  categories:
+    - development
+    - web

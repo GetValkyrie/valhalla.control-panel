@@ -1,0 +1,11 @@
+---
+valhalla_cp_frontend_url: valhalla.local
+valhalla_cp_makefile: ../../valhalla.control-panel/files/valhalla.make
+valhalla_cp_modules:
+  - hosting_alias
+  - hosting_environment
+  - hosting_git
+  - hosting_git_pull
+  - hosting_s3
+  - hosting_s3_client_creds
+  - hosting_web_cluster
