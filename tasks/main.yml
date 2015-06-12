@@ -52,3 +52,9 @@
   sudo: True
   sudo_user: "{{ aegir_user }}"
   when: valhalla_cp_disable_before_delete_check|failed
+
+- name: Allow /server-status URL to work
+  # See: http://www.ducea.com/2009/03/01/wordpress-mod_rewrite-rules-taking-over-mod_status/#comment-1269833648
+  file:
+    state: touch
+    path: /var/aegir/hostmaster-7.x-3.x/server-status
