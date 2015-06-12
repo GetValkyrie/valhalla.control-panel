@@ -8,7 +8,7 @@ dependencies:
 
 galaxy_info:
   author: Christopher Gervais (ergonlogic)
-  description: Valhalla: Control Panel - The production target for sites developed on Valkyrie.
+  description: Valhalla Control Panel - The production target for sites developed on Valkyrie.
   company: "GetValyrie"
   license: GPLv3
   min_ansible_version: 1.8
